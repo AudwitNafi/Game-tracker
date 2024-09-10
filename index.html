@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <h1>GAME TRACKER</h1>
+    <div id="subheader">Keep Track of The Games You Play</div>
+    <ul>
+        <li>Search for a game</li>
+        <li>Search Won't Work Without Exact Names</li>
+        <li>Press Add to Add Game into List</li>
+
+    </ul>
+    <div class="search">
+        <input type="text" id="searchInput" placeholder="Search for a game">
+        <button type="button" id="searchButton">ADD</button>
+    </div>
+    <div id="failure">No Such Game Found!</div>
+    <div id="success">Game Added!</div>
+    
+    <div class="games-container">
+
+    </div>
+    <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <img src="">
+        <h1>Game Name</h1>
+        <p>
+          Game Description
+        </p>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="script.js"></script>
+</body>
+</html>
